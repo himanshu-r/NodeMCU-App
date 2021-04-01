@@ -1,5 +1,6 @@
 package com.pmecETC.group13.HomeCS;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,7 @@ public class LED_activity extends AppCompatActivity {
             public void onClick(View v) {
                 on1 process1 = new on1();
                 process1.execute();
+                on1.setBackgroundColor(Color.GREEN);
 
             }
         });
@@ -39,6 +41,7 @@ public class LED_activity extends AppCompatActivity {
             public void onClick(View v) {
                 on2 process1 = new on2();
                 process1.execute();
+                on2.setBackgroundColor(Color.GREEN);
 
             }
         });
@@ -48,6 +51,7 @@ public class LED_activity extends AppCompatActivity {
             public void onClick(View v) {
                 on3 process1 = new on3();
                 process1.execute();
+                on3.setBackgroundColor(Color.GREEN);
 
             }
         });
@@ -57,6 +61,7 @@ public class LED_activity extends AppCompatActivity {
             public void onClick(View v) {
                 on4 process1 = new on4();
                 process1.execute();
+                on4.setBackgroundColor(Color.GREEN);
 
             }
         });
@@ -66,6 +71,8 @@ public class LED_activity extends AppCompatActivity {
             public void onClick(View v) {
                 off1 process1 = new off1();
                 process1.execute();
+                on1.setBackgroundColor(Color.WHITE);
+
 
             }
         });
@@ -75,6 +82,7 @@ public class LED_activity extends AppCompatActivity {
             public void onClick(View v) {
                 off2 process1 = new off2();
                 process1.execute();
+                on2.setBackgroundColor(Color.WHITE);
 
             }
         });
@@ -85,6 +93,7 @@ public class LED_activity extends AppCompatActivity {
 
                 off3 process1 = new off3();
                 process1.execute();
+                on3.setBackgroundColor(Color.WHITE);
 
             }
         });
@@ -95,6 +104,7 @@ public class LED_activity extends AppCompatActivity {
 
                 off4 process1 = new off4();
                 process1.execute();
+                on4.setBackgroundColor(Color.WHITE);
 
             }
         });

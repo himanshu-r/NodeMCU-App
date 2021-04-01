@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //For Ip add del this 2 line
+        Intent ht1 = new Intent(MainActivity.this,LED_activity.class);
+        startActivity(ht1);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 

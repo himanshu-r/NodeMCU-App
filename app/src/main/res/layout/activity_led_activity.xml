@@ -4,132 +4,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#0C0C0C"
     tools:context=".LED_activity">
 
- <Button
-     android:id="@+id/but3off3"
-     android:layout_width="130dp"
-     android:layout_height="70dp"
-     android:layout_below="@id/but1off"
-     android:layout_marginLeft="10dp"
-     android:layout_marginTop="85dp"
-     android:layout_toRightOf="@id/but1on"
-     android:text="OFF"
-     android:textSize="40dp" />
+   <Button
+       android:id="@+id/but3off3"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_below="@id/but1off"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="85dp"
+       android:layout_toRightOf="@id/but1on"
+       android:text="OFF"
+       android:background="#EFEFEF"
+       android:textSize="40dp" />
 
-    <Button
-        android:id="@+id/but4on4"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_below="@id/but2on"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="87dp"
-        android:layout_toRightOf="@id/le2"
-        android:gravity="center"
-        android:text="ON"
-        android:textSize="40dp" />
-    <Button
-        android:id="@+id/but4off4"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_below="@id/but2off"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="85dp"
-        android:layout_toRightOf="@id/but1on"
-        android:text="OFF"
-        android:textSize="40dp" />
- <Button
-     android:id="@+id/but3on3"
-     android:layout_width="130dp"
-     android:layout_height="70dp"
-     android:layout_below="@id/but1on"
-     android:layout_marginLeft="14dp"
-     android:layout_marginTop="87dp"
-     android:layout_toRightOf="@id/le2"
-     android:gravity="center"
-     android:text="ON"
-     android:textSize="40dp" />
+   <Button
+       android:id="@+id/but4on4"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_below="@id/but2on"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="86dp"
+       android:layout_toRightOf="@id/le2"
+       android:background="#EFEFEF"
+       android:gravity="center"
+       android:text="ON"
+       android:textSize="40dp" />
 
-    <TextView
-        android:id="@+id/re4"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_below="@+id/le"
-        android:layout_marginTop="-3dp"
-        android:gravity="center"
-        android:text="Relay 4"
-        android:textSize="30dp"
-        tools:ignore="NotSibling" />
+   <Button
+       android:id="@+id/but4off4"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_below="@id/but2off"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="85dp"
+       android:layout_toRightOf="@id/but1on"
+       android:text="OFF"
+       android:background="#EFEFEF"
+       android:textSize="40dp" />
 
-    <TextView
-        android:id="@+id/le"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_below="@+id/le2"
-        android:layout_marginTop="-3dp"
-        android:gravity="center"
-        android:text="Relay 3"
-        android:textSize="30dp"
-        tools:ignore="NotSibling" />
+   <Button
+       android:id="@+id/but3on3"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_below="@id/but1on"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="87dp"
+       android:layout_toRightOf="@id/le2"
+       android:gravity="center"
+       android:text="ON"
+       android:background="#EFEFEF"
+       android:textSize="40dp" />
 
-    <TextView
-     android:id="@+id/le1"
-     android:layout_width="110dp"
-     android:layout_height="80dp"
-     android:gravity="center"
-     android:text="Relay 1"
-     android:textSize="30dp" />
+   <TextView
+       android:id="@+id/re4"
+       android:layout_width="110dp"
+       android:layout_height="80dp"
+       android:layout_below="@+id/le"
+       android:layout_marginTop="-3dp"
+       android:gravity="center"
+       android:text="Room Light"
+       android:textColor="#DA1313"
+       android:textSize="30dp"
+       tools:ignore="NotSibling" />
 
-    <TextView
-        android:id="@+id/le2"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_below="@+id/le1"
-        android:layout_marginTop="-3dp"
-        android:gravity="center"
-        android:text="Relay 2"
-        android:textSize="30dp" />
+   <TextView
+       android:id="@+id/le"
+       android:layout_width="110dp"
+       android:layout_height="80dp"
+       android:layout_below="@+id/le2"
+       android:layout_marginTop="-3dp"
+       android:gravity="center"
+       android:text="Light Bathroom"
+       android:textColor="#DF0E0E"
+       android:textSize="24dp"
+       tools:ignore="NotSibling" />
 
-    <Button
-        android:id="@+id/but1on"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@id/le1"
-        android:gravity="center"
-        android:text="ON"
-        android:textSize="40dp" />
+   <TextView
+       android:id="@+id/le1"
+       android:layout_width="110dp"
+       android:layout_height="80dp"
+       android:gravity="center"
+       android:text="FAN"
+       android:textColor="#C81616"
+       android:textSize="35dp" />
 
-    <Button
-        android:id="@+id/but2off"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_below="@id/but1off"
-        android:text="OFF"
-        android:textSize="40dp"
-        android:layout_toRightOf="@id/but1on" />
+   <TextView
+       android:id="@+id/le2"
+       android:layout_width="110dp"
+       android:layout_height="80dp"
+       android:layout_below="@+id/le1"
+       android:layout_marginTop="-3dp"
+       android:gravity="center"
+       android:text="Dump"
+       android:textColor="#EC1010"
+       android:textSize="30dp" />
 
-    <Button
-        android:id="@+id/but1off"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_marginLeft="10dp"
-        android:text="OFF"
-        android:textSize="40dp"
-        android:layout_toRightOf="@id/but1on" />
+   <Button
+       android:id="@+id/but1on"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_toRightOf="@id/le1"
+       android:gravity="center"
+       android:background="#EFEFEF"
+       android:text="ON"
+       android:textSize="40dp" />
 
-    <Button
-        android:id="@+id/but2on"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_below="@id/but1on"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@id/le2"
-        android:gravity="center"
-        android:text="ON"
-        android:textSize="40dp" />
+   <Button
+       android:id="@+id/but2off"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_below="@id/but1off"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_toRightOf="@id/but1on"
+       android:text="OFF"
+       android:background="#EFEFEF"
+       android:textSize="40dp" />
+
+   <Button
+       android:id="@+id/but1off"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_toRightOf="@id/but1on"
+       android:text="OFF"
+       android:background="#EFEFEF"
+       android:textSize="40dp" />
+
+   <Button
+       android:id="@+id/but2on"
+       android:layout_width="130dp"
+       android:layout_height="70dp"
+       android:layout_below="@id/but1on"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_toRightOf="@id/le2"
+       android:gravity="center"
+       android:text="ON"
+       android:background="#EFEFEF"
+       android:textSize="40dp" />
+
+  
 
 </RelativeLayout>

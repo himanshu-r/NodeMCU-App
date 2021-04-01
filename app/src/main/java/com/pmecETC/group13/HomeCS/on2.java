@@ -16,7 +16,7 @@ public class on2 extends AsyncTask<Void,Void,String> {
     @Override
     protected String doInBackground(Void... voids) {
         try {
-            URL url = new URL("http://192.168.1.1/5/on");
+            URL url = new URL("http://192.168.1.1/relay2/on");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
