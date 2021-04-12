@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NodeMCU1.iml" filepath="$PROJECT_DIR$/NodeMCU1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NodeMCU1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NodeMCU1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NodeMCU-App.iml" filepath="$PROJECT_DIR$/.idea/modules/NodeMCU-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NodeMCU-App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NodeMCU-App.app.iml" />
     </modules>
   </component>
 </project>
